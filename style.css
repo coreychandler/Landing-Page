@@ -21,7 +21,7 @@ body {
     color: #E5E7EB
 }
 
-.maincontainer {
+.hero {
     display: flex;
     justify-content: space-between;
     padding: 70px 100px;
@@ -50,6 +50,33 @@ body {
     color: #E5E7EB
 }
 
+.randomcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 20px 120px;
+}
+
+.fourpics {
+    display: flex;
+    gap: 12px;
+}
+
+.picinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.smallimage {
+    border-radius: 20%;
+}
+
+.smallphototext {
+    text-align: center;
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -67,4 +94,10 @@ ul {
 
 .buttondark {
     border: none;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
