@@ -29,10 +29,6 @@ body {
     gap: 20px;
 }
 
-.mainright {
-
-}
-
 .mainleft {
     display: flex;
     flex-direction: column;
