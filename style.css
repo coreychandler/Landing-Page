@@ -5,7 +5,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
+    background-color: #1c500c;
     align-items: center;
     padding: 0px 100px;
 }
@@ -25,7 +25,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 70px 100px;
-    background-color: #1F2937;
+    background-color: #1c500c;
     gap: 20px;
 }
 
@@ -77,6 +77,25 @@ body {
     text-align: center;
 }
 
+.quotecontainer {
+    background-color: #E5E7EB;
+    padding: 60px 160px;
+}
+
+.calltoactioncontainer {
+    display: flex;
+    background-color: #7b797e;
+    justify-content: space-around;
+    margin: 60px 160px;
+    border-radius: 5px;
+    padding: 40px 0px;
+}
+
+.calltoactionleft {
+    display: flex;
+    flex-direction: column;
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -86,7 +105,7 @@ ul {
 .button {
     width: 90px;
     height: 30px;
-    background-color: #3882F6;
+    background-color: #b9beba;
     color: white;
     border-radius: 4px;
     font-weight: bold;
@@ -96,8 +115,35 @@ ul {
     border: none;
 }
 
+.buttonlight {
+    border: 1px solid white;
+}
+
 h1 {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+}
+
+#quote {
+    font-style: italic;
+    font-weight: 50; /*Look into how to get this even lighter */
+    font-size: 26px;
+}
+
+#quoteattrib {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+}
+
+#Calltoactionbig {
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+span {
+    color: white;
+    font-size: 12px;
 }

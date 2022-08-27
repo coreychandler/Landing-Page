@@ -1,3 +1,3 @@
 # Landing-Page
 My first solo web page attempt!
-Thanks to Patrick Case, Kimberly Mcneilus, and Tom Jackson for the photos.
+Thanks to Patrick Case, Kimberly Mcneilus, Tom Jackson and Steve Momot for the photos.
